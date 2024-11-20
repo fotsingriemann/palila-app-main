@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Palila App",
+    "slug": "palila-app",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF8F2"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "requireFullScreen": true,
+      "bundleIdentifier": "palila.app",
+      "buildNumber": "0.1.0"
+    },
+    "android": {
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#FFF8F2"
+      },
+      "package": "palila.app",
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1bc891f1-584e-4c14-930e-74979846201e"
+      }
+    }
+  }
+}
