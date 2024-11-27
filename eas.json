@@ -1,0 +1,12 @@
+{
+  "build": {
+    "production": {
+      "env": {
+        "EXPO_NO_CACHE": "1"
+      },
+      "cache": {
+        "disabled": false
+      }
+    }
+  }
+}
