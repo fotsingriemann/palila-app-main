@@ -1,0 +1,32 @@
+{
+  "build": {
+    "production": {
+      "android": {
+        "buildType": "apk",
+        "env": {
+          "JAVA_HOME": "/usr/lib/jvm/java-11-openjdk-amd64",
+          "ANDROID_SDK_ROOT": "~/Android/Sdk"
+        }
+      }
+    },
+    "development": {
+      "android": {
+        "buildType": "apk",
+        "env": {
+          "JAVA_HOME": "/usr/lib/jvm/java-11-openjdk-amd64",
+          "ANDROID_SDK_ROOT": "~/Android/Sdk"
+        }
+      }
+    },
+    "preview": {
+      "android": {
+        "buildType": "apk",
+        "env": {
+          "JAVA_HOME": "/usr/lib/jvm/java-11-openjdk-amd64",
+          "ANDROID_SDK_ROOT": "~/Android/Sdk"
+        }
+      }
+    }
+  }
+}
+
